@@ -7,15 +7,26 @@ body{
 
 main{
     margin: 20px auto 20px auto;
+    display: flex;
+    flex-wrap: wrap;
 
 }
+
+.flexItem{
+  flex-basis: 300px;
+  flex-grow: 2;
+  margin: 2px;
+  background-color: yellow;
+  padding:30px;
+}
+
 
 
 img{
     width: 100%;
     display: block;
     margin: 1% auto 1% auto;
-    border:2px solid black;
+    border: 0;
 }
 
 nav{
@@ -56,7 +67,7 @@ nav a:hover{
 }
 
 @media screen and (min-width: 1300px){
-  .virtical{
-    width: 30%;
+  img{
+    display: none;
   }
 }
