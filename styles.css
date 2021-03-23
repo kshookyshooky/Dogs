@@ -2,6 +2,7 @@ body{
   padding: 0;
   margin: 0;
   font-family: Helvetica, sans-serif;
+  background-color: black;
 }
 
 
@@ -20,6 +21,9 @@ main{
   padding:30px;
 }
 
+h2{
+  color: white;
+}
 
 
 img{
