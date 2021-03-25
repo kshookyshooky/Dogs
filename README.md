@@ -1,2 +1,2 @@
 # Dogs
-https://kshookyshooky.github.io/Dogs/
+https://kshookyshooky.github.io/simple-media/
