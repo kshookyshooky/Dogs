@@ -17,7 +17,7 @@ main{
   flex-basis: 300px;
   flex-grow: 2;
   margin: 2px;
-  background-color: yellow;
+  background-color: rgba(181, 181,181, 0.5);
   padding:30px;
 }
 
@@ -41,6 +41,19 @@ img{
   max-width: 350px;
 }
 
+button{
+  position: absolute;
+  bottom: 8%;
+  right: 5%;
+  background: none;
+  padding: 5px;
+  border: 2px black solid;
+  color: black;
+  font-size: 1.3em;
+  border-radius: 5px;
+
+}
+
 nav{
   background: grey;
   /* height: 60px; */
@@ -49,7 +62,7 @@ nav{
 }
 /* styles for hero or feature */
 .hero{
-  background-image: url(img/hair.jpg);
+  background-image: url("img/hair.jpg");
   height: 400px;
   background-size: cover;
   background-position: center;
@@ -60,7 +73,7 @@ nav{
 
 .hero h2{
   position: absolute;
-  bottom: 10%;
+  bottom: 20%;
   right:5%;
 }
 nav a{
