@@ -2,7 +2,7 @@ body{
   padding: 0;
   margin: 0;
   font-family: Helvetica, sans-serif;
-  background-color: pink;
+  background: rgb(181,165,170);
 }
 
 
@@ -15,9 +15,9 @@ main{
 
 .flexItem{
   flex-basis: 300px;
-  flex-grow: 2;
-  margin: 2px;
-  background-color: rgba(181, 181,181, 0.5);
+  flex-grow: 1;
+  margin: 2px 20px 2px 20px;
+  background-color: rgb(255, 255,255, 0.5);
   padding:30px;
 }
 
@@ -54,8 +54,19 @@ button{
 
 }
 
+.about-hero{
+  background-image: url("img/about.jpg");
+  /* add img name above */
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  /* background stuff above */
+  /* moving text below */
+  position: relative;
+}
+
 nav{
-  background: grey;
+  background: rgb(255,255,255, 0.3);
   /* height: 60px; */
   text-align: center;
   font-family: 'Fjalla One', Helvetica, sans-serif;
@@ -76,6 +87,7 @@ nav{
   bottom: 20%;
   right:5%;
 }
+
 nav a{
   text-align: center;
   color: white;
@@ -92,6 +104,22 @@ nav a:hover{
 
 }
 
+footer{
+  background:rgba(0,0,0, 0.8);
+  padding: 40px;
+}
+
+footer p{
+color:white;
+}
+
+footer a{
+  color: white;
+
+}
+
+
+/* about style */
 
 @media screen and (min-width: 700px) {
 
@@ -102,11 +130,15 @@ nav a:hover{
             width:30%;
             display: inline;
         }
-        .virtical{
-          width: 20%;
-        }
+
         .flexItem{
-          height: 400px;
+
+          margin: 20px;
+
+        }
+
+        .flexItem:first-child{
+          margin-right: 0;
         }
 }
 
