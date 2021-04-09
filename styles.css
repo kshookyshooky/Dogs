@@ -7,18 +7,21 @@ body{
 
 
 main{
-    margin: 20px auto 20px auto;
+    /* -------- Changed margin  --------*/
+    margin: 20px 10px 20px 10px;
+    /* margin:top right bottom left */
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .flexItem{
-  flex-basis: 300px;
-  flex-grow: 1;
-  margin: 2px 20px 2px 20px;
-  background-color: rgb(255, 255,255, 0.5);
-  padding:30px;
+    flex-basis: 300px;
+    flex-grow:1;
+    /* -------- Changed margin  --------*/
+    margin: 1% 10px;
+    background: rgb(255, 255, 255, 0.5);
+    /* -------- Changed padding  --------*/
+    padding:30px;
 }
 
 h2{
@@ -121,29 +124,24 @@ footer a{
 
 /* about style */
 
+/* medium screen size below --------- */
 @media screen and (min-width: 700px) {
-
-        .logo {
-          /* width:350px; */
+        .logo{
+            /* width:350px; */
         }
         img{
-            width:30%;
             display: inline;
+            width:30%;
         }
 
         .flexItem{
-
-          margin: 20px;
+            /* changed margin below */
+            margin:10px;
 
         }
 
-        .flexItem:first-child{
-          margin-right: 0;
-        }
-}
 
-@media screen and (min-width: 1300px){
-  img{
-    display: none;
-  }
+
 }
+/* large screen styles below */
+@media screen and (min-width: 1300px) {
